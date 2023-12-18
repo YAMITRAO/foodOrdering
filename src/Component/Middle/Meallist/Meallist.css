@@ -1,0 +1,16 @@
+.meallistContainer{
+    width:100vw;
+    margin:0 auto;
+    position: relative;
+    top:130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mealList{
+    width: 60vw;
+    
+    background-color: aliceblue;
+    border-radius: 10px;
+}

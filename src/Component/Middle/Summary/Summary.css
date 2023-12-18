@@ -1,0 +1,34 @@
+
+.summaryContainer{
+    display: flex;
+    flex-direction: row;
+    height:250px;
+    width:100vw;
+    justify-content: center;
+    background-image: url('../../images/img.jpeg');
+    background-size: cover;
+    position: relative;
+}
+
+
+.summaryDiv{
+    position: absolute;
+    bottom: -100px;
+    
+    width: 700px;
+    height: 220px;
+    background-color: #3f3f3f;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgb(24, 22, 22) ;
+    color:white;
+}
+.summaryDiv > p, h1{
+    margin: 5px;
+    padding: 5px;
+}
+
