@@ -1,0 +1,45 @@
+
+.listButtonContainer{
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.amountInput > input {
+    padding-left: 7px;
+    width: 40px;
+    height: 23px;
+    border-radius: 5px;
+    border: 1px solid rgb(91, 81, 81);
+}
+
+.amountInput > label {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.buttonContainer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+}
+.buttonContainer > button{
+    padding: 4px 7px;
+    width: 80px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(97, 16, 16);
+    cursor: pointer;
+}
+
+.buttonContainer > button:hover{
+    scale: 1.03;
+
+}
