@@ -3,12 +3,14 @@
     width: 250px;
     background-color: rgb(101, 7, 7);
     border-radius: 30px;
+    border: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     color: white;
     font-family: monospace;
+    cursor: pointer;
 }
 .cartHeading, .cartCount{
     margin-left:10px

@@ -3,10 +3,11 @@ import Meallist from "./Middle/Meallist/Meallist";
 import Summary from "./Middle/Summary/Summary";
 
 
+
 const Project = () => {
 
     return(
-        <>
+       <>
         <Navbar />
         <Summary />
         <Meallist />
