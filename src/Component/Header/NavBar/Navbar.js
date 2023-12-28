@@ -1,13 +1,13 @@
 import Cart from '../Cart/Cart';
 import './Navbar.css'
 
-const Navbar = () => {
+const Navbar = (props) => {
 
     return(
         <>
         <div class="navBarContainer">
             <h1 className='headerHeading'>ReactMeals</h1>
-            <Cart />
+            <Cart onShowNavBar={props.onShowProject} />
         </div>
         </>
     );

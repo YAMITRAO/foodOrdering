@@ -4,11 +4,11 @@ import Summary from "./Middle/Summary/Summary";
 
 
 
-const Project = () => {
+const Project = (props) => {
 
     return(
        <>
-        <Navbar />
+        <Navbar onShowProject = {props.onShow}/>
         <Summary />
         <Meallist />
         </>

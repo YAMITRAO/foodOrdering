@@ -1,9 +1,9 @@
 import "./Cart.css"
 
-const Cart = ( ) => {
+const Cart = ( props) => {
 
     return (
-        <button className="cartContainer">
+        <button className="cartContainer" onClick={props.onShowNavBar}>
             <div className="cartSymbol">$
              </div>
             <div className="cartHeading">Your Cart</div>

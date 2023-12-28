@@ -3,7 +3,7 @@ import classes from "./CartCard.module.css"
 
 
 
-const CartCard = () => {
+const CartCard = (props) => {
 
     return <Overlay>
         <div className={classes.container}>
@@ -14,7 +14,7 @@ const CartCard = () => {
         </div>
 
         <div className={classes.buttonContainer}>
-            <button className={classes.closeButton}>Close</button>
+            <button className={classes.closeButton} onClick={props.onClose}>Close</button>
             <button className={classes.orderButton}>Order</button>
         </div>
         </div>
